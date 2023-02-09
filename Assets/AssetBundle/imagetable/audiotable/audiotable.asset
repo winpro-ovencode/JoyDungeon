@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6e65c042a429cb4ebac14e6d531c2ea, type: 3}
+  m_Name: audiotable
+  m_EditorClassIdentifier: 
+  m_Audios:
+  - name: common_attack_hit1
+    clip: {fileID: 8300000, guid: 384c07e15d5b87942a19f4ef7a87d99a, type: 3}
+  - name: common_axe_hit1
+    clip: {fileID: 8300000, guid: 1f40090b91a9d9846bf29cb9af36dd7d, type: 3}
+  - name: common_axe_hit2
+    clip: {fileID: 8300000, guid: aa02175a29fb46447819342bc309b145, type: 3}
+  - name: common_axe_hit3
+    clip: {fileID: 8300000, guid: 3626d436b8cf162429c3d34969a30a14, type: 3}
+  - name: common_axe_hit_critical1
+    clip: {fileID: 8300000, guid: 5d7ebd476c0c4544cabbe5ade32fe1d3, type: 3}
+  - name: common_axe_hit_critical2
+    clip: {fileID: 8300000, guid: 20706f46aca4657479f5c39685a20511, type: 3}
+  - name: common_axe_hit_critical3
+    clip: {fileID: 8300000, guid: 66afc415a59ac224f8be14d6049ea8b4, type: 3}
+  - name: common_dodge
+    clip: {fileID: 8300000, guid: ceecb9ff0e7f0224c9cbbb33b0a20d26, type: 3}
+  - name: common_hit1
+    clip: {fileID: 8300000, guid: 0a3aa74bead726846a4a76d89cfb9614, type: 3}
+  - name: common_hit2
+    clip: {fileID: 8300000, guid: 8067a385f2c7ccb46b87a8cfd28da0d9, type: 3}
+  - name: common_hit3
+    clip: {fileID: 8300000, guid: 007dac2d87b23284db32c6e36154b8ec, type: 3}
+  - name: common_hit4
+    clip: {fileID: 8300000, guid: 1631e226e2612c14ab9d9c4aac08b3f7, type: 3}
+  - name: common_hit_bite1
+    clip: {fileID: 8300000, guid: a059b911a9aa19944bc463c1d1e0950b, type: 3}
+  - name: common_hit_bite2
+    clip: {fileID: 8300000, guid: ca904cba0ae02e542a453c491f21696c, type: 3}
+  - name: common_hit_bite3
+    clip: {fileID: 8300000, guid: a6eac31d9926267499816c996fddbbba, type: 3}
+  - name: common_sword_hit1
+    clip: {fileID: 8300000, guid: 567f546ad082f3b459eaeba39362cbb6, type: 3}
+  - name: common_sword_hit2
+    clip: {fileID: 8300000, guid: 3e8a90cabf6b3324c87dc06ddb38ccc6, type: 3}
+  - name: common_sword_hit3
+    clip: {fileID: 8300000, guid: e17247ff2cd0b9546817868d084e54c2, type: 3}
+  - name: common_sword_hit4
+    clip: {fileID: 8300000, guid: 66f52c68945d6d044a3a8398cde44097, type: 3}
+  - name: common_sword_hit5
+    clip: {fileID: 8300000, guid: f071e765dc1037f4a90cf24a7cc08521, type: 3}
+  - name: common_vision_bullet1
+    clip: {fileID: 8300000, guid: f10108adebd67a544beffbe28e941ced, type: 3}
+  - name: common_vision_bullet2
+    clip: {fileID: 8300000, guid: 19cda374026a49a4d9a54815cb30f60f, type: 3}
+  - name: common_vision_bullet3
+    clip: {fileID: 8300000, guid: c2678b91d6e452e4b85ae0e22a62e2db, type: 3}
+  - name: common_vision_hit1
+    clip: {fileID: 8300000, guid: 2128365a71a4acd40a0a4eb26d090f0c, type: 3}
+  - name: common_vision_hit2
+    clip: {fileID: 8300000, guid: ccd87cae1580fe344b5461e9e3a5a823, type: 3}
+  - name: common_vision_hit3
+    clip: {fileID: 8300000, guid: 4dcb4960e54c4a04f880c9ccc5947849, type: 3}
+  - name: common_vision_large_hit
+    clip: {fileID: 8300000, guid: 959a2dc975427904090b4fe5443397ac, type: 3}
+  - name: dorothy_buff up shield (1)
+    clip: {fileID: 8300000, guid: 4ee1f3da29ca23f47a09909be6bf30dd, type: 3}
+  - name: dorothy_buff up shield (2)
+    clip: {fileID: 8300000, guid: ffcfde2c0729e624989b51558766c7e1, type: 3}
+  - name: dorothy_buff up shield (3)
+    clip: {fileID: 8300000, guid: 484976a1f5d34cc499cd4bfd5f2f9c24, type: 3}
+  - name: dorothy_skill_cast1
+    clip: {fileID: 8300000, guid: 63a70e8dd0b8ca443865b29a9d8fe535, type: 3}
+  - name: dorothy_skill_shot1
+    clip: {fileID: 8300000, guid: 08990e49c2d6c324187b219205c5531c, type: 3}
+  - name: dorothy_skill_shot2
+    clip: {fileID: 8300000, guid: 079c6a2ad5bdd974da525bf2ef908870, type: 3}
+  - name: dorothy_skill_shot3
+    clip: {fileID: 8300000, guid: 8a3f27bbe3ae085408044ad864640aec, type: 3}
+  - name: dorothy_vision_barrier
+    clip: {fileID: 8300000, guid: 43fda346fff338245bf872a81f65eea4, type: 3}
+  - name: harald_defense
+    clip: {fileID: 8300000, guid: 216dbc8353d7d0e4f9c4dfad077ce9bc, type: 3}
+  - name: harald_entry
+    clip: {fileID: 8300000, guid: 1e117e5fe7dfd24468443536518655dc, type: 3}
+  - name: harald_hit_voice1
+    clip: {fileID: 8300000, guid: 07dd861d22123d04bb2fa1e0667d767d, type: 3}
+  - name: harald_hit_voice2
+    clip: {fileID: 8300000, guid: 28e228232f5821f4e90cf7bd3d243790, type: 3}
+  - name: harald_normal_attack1
+    clip: {fileID: 8300000, guid: 9b87dd1c767ab584991487646fae0745, type: 3}
+  - name: harald_normal_attack2
+    clip: {fileID: 8300000, guid: 5df62bcf4ee9f4c48838e409350a2c55, type: 3}
+  - name: harald_normal_attack_voice1
+    clip: {fileID: 8300000, guid: 83ec4fa23f606834f8680dd650f095fc, type: 3}
+  - name: harald_normal_attack_voice2
+    clip: {fileID: 8300000, guid: cce23e797a78e1e4899dcff88219dfb2, type: 3}
+  - name: harald_skill1
+    clip: {fileID: 8300000, guid: 43a729939d4f96748aff0024aa5addcf, type: 3}
+  - name: harald_skill2
+    clip: {fileID: 8300000, guid: 40bcf78e3f3f39440a8588f834e3baa1, type: 3}
+  - name: harald_skill3
+    clip: {fileID: 8300000, guid: 4a972ff2416a1ed4c8f4db21806872cc, type: 3}
+  - name: harald_skill4
+    clip: {fileID: 8300000, guid: 15cd2b3305d2f054a84724d046a52d04, type: 3}
+  - name: harald_skill5
+    clip: {fileID: 8300000, guid: 352cf28d9d6991a43871940e6ef3bae2, type: 3}
+  - name: harald_skill6
+    clip: {fileID: 8300000, guid: a9d977b8347f03043876cf7fa5356694, type: 3}
+  - name: harald_skill7
+    clip: {fileID: 8300000, guid: dba7cf5c5de869542b0448768283b895, type: 3}
+  - name: harald_skill_shot_deathblow
+    clip: {fileID: 8300000, guid: e681fc4142739ae459b19a50307ac6e8, type: 3}
+  - name: harald_skill_shot_whirlwind
+    clip: {fileID: 8300000, guid: ca2ff2b72cedda0409dd46327511bf60, type: 3}
+  - name: harald_skill_voice1
+    clip: {fileID: 8300000, guid: 8c733458955f13241afe974b7367a494, type: 3}
+  - name: harald_skill_voice2
+    clip: {fileID: 8300000, guid: 7ea353865a15970499f7dbab208ba6ff, type: 3}
+  - name: harald_skill_voice3
+    clip: {fileID: 8300000, guid: db584e00e8c1e93458af77843f00a213, type: 3}
+  - name: harald_skill_voice4
+    clip: {fileID: 8300000, guid: 69220a98e8ffe9948b093d40bfc52722, type: 3}
+  - name: harald_skill_voice_battlehowl
+    clip: {fileID: 8300000, guid: 21141f0f57a7ff042ad09875dc15c0d1, type: 3}
+  - name: harald_skill_voice_whirlwind
+    clip: {fileID: 8300000, guid: 9b8c506f84aba79439c182c191f46857, type: 3}
+  - name: roland_defense
+    clip: {fileID: 8300000, guid: 362480e804af1d148b4a431c217c19f7, type: 3}
+  - name: roland_entry
+    clip: {fileID: 8300000, guid: 5855ca9b917fcb744bbcf180818c0fbf, type: 3}
+  - name: roland_hit_voice1
+    clip: {fileID: 8300000, guid: 7f40e700958fc8d469b9c359bdfa28b2, type: 3}
+  - name: roland_hit_voice2
+    clip: {fileID: 8300000, guid: 1b8cd2a2ce5ac1742bc7c9866fd7552c, type: 3}
+  - name: roland_hit_voice3
+    clip: {fileID: 8300000, guid: a36b8d1d3870f454da03aec5ea730d98, type: 3}
+  - name: roland_hit_voice4
+    clip: {fileID: 8300000, guid: 039560963ab82904eb4c8366b8d940c3, type: 3}
+  - name: roland_normal_attack1
+    clip: {fileID: 8300000, guid: 8751497042d6ff44fbc31efc31d82932, type: 3}
+  - name: roland_normal_attack2
+    clip: {fileID: 8300000, guid: 472dcde74439ab74c8481adff2f94242, type: 3}
+  - name: roland_normal_attack_voice1
+    clip: {fileID: 8300000, guid: ae0aebd76d635ac4891fa100331c5829, type: 3}
+  - name: roland_normal_attack_voice2
+    clip: {fileID: 8300000, guid: fa7dd31fa5c6d0e4aa743d9605a462b8, type: 3}
+  - name: roland_skill1
+    clip: {fileID: 8300000, guid: 70b3ae89d06f079498df99a0e28faf40, type: 3}
+  - name: roland_skill2
+    clip: {fileID: 8300000, guid: 078588faec3572b4999916adb7348fcd, type: 3}
+  - name: roland_skill3
+    clip: {fileID: 8300000, guid: e439e0cf7fec0de4fabee30ec5417acc, type: 3}
+  - name: roland_skill4
+    clip: {fileID: 8300000, guid: 31021bf20a8b9e14fa4ef669a9c3eb3f, type: 3}
+  - name: roland_skill5
+    clip: {fileID: 8300000, guid: cc4fe89c0fb4ae042882572db47c2e39, type: 3}
+  - name: roland_skill6
+    clip: {fileID: 8300000, guid: bd52ea6a6f7c0ff4a98308546be9c217, type: 3}
+  - name: roland_skill7
+    clip: {fileID: 8300000, guid: 9871acd344223574382f7c198915ab7a, type: 3}
+  - name: roland_skill_voice1
+    clip: {fileID: 8300000, guid: 5a1598b600fd43b489d870e2b881f6e7, type: 3}
+  - name: roland_skill_voice2
+    clip: {fileID: 8300000, guid: e2a378b3b8b42554aa0737912b865a99, type: 3}
+  - name: roland_skill_voice3
+    clip: {fileID: 8300000, guid: 63352210342431444995e146974b866d, type: 3}
+  - name: footstep_footstep_grass1
+    clip: {fileID: 8300000, guid: 488cde895f360e44d93e9e3ecea82f6d, type: 3}
+  - name: footstep_footstep_grass2
+    clip: {fileID: 8300000, guid: 8546d304b12f403479ab5e2c8d80be4a, type: 3}
+  - name: footstep_footstep_grass3
+    clip: {fileID: 8300000, guid: b322498658d1ab945bd7ea36f0d487f0, type: 3}
+  - name: footstep_footstep_ice1
+    clip: {fileID: 8300000, guid: 7887d949cf34db74d9e6ceb831ccfe35, type: 3}
+  - name: footstep_footstep_ice2
+    clip: {fileID: 8300000, guid: 49ab798aa8497c348b2f0deb31fbd88f, type: 3}
+  - name: footstep_footstep_ice3
+    clip: {fileID: 8300000, guid: 6b3a64cb34e39664c8fbe4fd429c781f, type: 3}
+  - name: footstep_footstep_marble1
+    clip: {fileID: 8300000, guid: 9524a61b02d53c34088daf2f70b68d79, type: 3}
+  - name: footstep_footstep_marble2
+    clip: {fileID: 8300000, guid: 721ea43bf819588468ee0a073701b7e2, type: 3}
+  - name: footstep_footstep_marble3
+    clip: {fileID: 8300000, guid: 19002b6cd01dde34b8d3532ebf7e727e, type: 3}
+  - name: footstep_footstep_snow1
+    clip: {fileID: 8300000, guid: 8195074c391179940bf28357bd3adaa7, type: 3}
+  - name: footstep_footstep_snow2
+    clip: {fileID: 8300000, guid: ec977f3426cc22f4c8a2b8f617f36ee3, type: 3}
+  - name: footstep_footstep_snow3
+    clip: {fileID: 8300000, guid: 89a2671fe0cfc1c41a27ce3efbf96bc7, type: 3}
+  - name: ui_achievement_complete
+    clip: {fileID: 8300000, guid: 4ad90587dc3c07a4bb15b0c11b09fa73, type: 3}
+  - name: ui_attendance_stamp
+    clip: {fileID: 8300000, guid: 47d6f22ef705b98419cccb2ef071dd33, type: 3}
+  - name: ui_button
+    clip: {fileID: 8300000, guid: 36c2f803d58b09b4aaf622d89ec01bb1, type: 3}
+  - name: ui_chest_open
+    clip: {fileID: 8300000, guid: 2f90b3e59461db242aecc8f494484829, type: 3}
+  - name: ui_clothes_equip
+    clip: {fileID: 8300000, guid: 909f802ce84c18a478f1e7a7ee6bbdf1, type: 3}
+  - name: ui_clothes_unequip
+    clip: {fileID: 8300000, guid: 93fba8d3f2dbbec4bb40affbb883d95d, type: 3}
+  - name: ui_collect1
+    clip: {fileID: 8300000, guid: 1a00ee4ee72fe1645857058b72c95f4e, type: 3}
+  - name: ui_collect2
+    clip: {fileID: 8300000, guid: 64038383da2ae2248a75271b5d36ef34, type: 3}
+  - name: ui_contents_unlock
+    clip: {fileID: 8300000, guid: 037909ed0039540479a737589eb82183, type: 3}
+  - name: ui_egg_pick
+    clip: {fileID: 8300000, guid: 2167cd74cfe161444ba0f4d284448699, type: 3}
+  - name: ui_feature_point
+    clip: {fileID: 8300000, guid: 8c3d1efc45fe53448ac7f42696fae407, type: 3}
+  - name: ui_follower_stardrop
+    clip: {fileID: 8300000, guid: 0f5df8700483593489602684c01d6672, type: 3}
+  - name: ui_gem_equip
+    clip: {fileID: 8300000, guid: 368286d036f3daf40ba76ad4b7db1c54, type: 3}
+  - name: ui_gem_pick
+    clip: {fileID: 8300000, guid: 9d5af43cd4dc29844bb5c47e3354485e, type: 3}
+  - name: ui_gem_unequip
+    clip: {fileID: 8300000, guid: 8a1a2024f414ab34ab57cd6cdb594eee, type: 3}
+  - name: ui_gold_pick1
+    clip: {fileID: 8300000, guid: 1ee7e2328a5cd4347b8f078c3c3b401c, type: 3}
+  - name: ui_gold_pick2
+    clip: {fileID: 8300000, guid: dd4a631ab83052d4fb17bf3eea1d3c89, type: 3}
+  - name: ui_herb_pick
+    clip: {fileID: 8300000, guid: 70890ca450928874ba50db11296d7069, type: 3}
+  - name: ui_inventory_close
+    clip: {fileID: 8300000, guid: bd8d8cd684ca4b04e90d54719d5b4ec4, type: 3}
+  - name: ui_inventory_open
+    clip: {fileID: 8300000, guid: 68586a9218be0b840a52e81fb73df1bd, type: 3}
+  - name: ui_leather_equip
+    clip: {fileID: 8300000, guid: 65cc2e9c76f9bd04883ac54e6b06c008, type: 3}
+  - name: ui_leather_pick
+    clip: {fileID: 8300000, guid: 2e6faf2c31a02ea4fb53bbee26cbb4c5, type: 3}
+  - name: ui_leather_unequip
+    clip: {fileID: 8300000, guid: 73b9974cc5a881844959993b32ba3ddf, type: 3}
+  - name: ui_levelup
+    clip: {fileID: 8300000, guid: e61f515c3f1b9964aaff5de995985426, type: 3}
+  - name: ui_levelup2
+    clip: {fileID: 8300000, guid: 90fe7cf037188a941aa7777333d31d83, type: 3}
+  - name: ui_library_close
+    clip: {fileID: 8300000, guid: 05907596e6ca8304ab466d190a7d266a, type: 3}
+  - name: ui_library_open
+    clip: {fileID: 8300000, guid: 88a0f1a96ebc8944dba280632aab0e89, type: 3}
+  - name: ui_metal_equip
+    clip: {fileID: 8300000, guid: 5cc9a44cd79ef554ebe2d5a9329d9460, type: 3}
+  - name: ui_metal_unequip
+    clip: {fileID: 8300000, guid: 27b35930bde64c844858eada29073b2a, type: 3}
+  - name: ui_mission_complete
+    clip: {fileID: 8300000, guid: cd1f363d0f8772a478a9f6136e11cf39, type: 3}
+  - name: ui_plate_equip
+    clip: {fileID: 8300000, guid: 08bd47136fd65314da968e7b7c100b92, type: 3}
+  - name: ui_plate_unequip
+    clip: {fileID: 8300000, guid: 5b9b75c8f603bea4baf762298686acc2, type: 3}
+  - name: ui_potion_make_progress1
+    clip: {fileID: 8300000, guid: 05cf6ffd309cff5478a2cd872ee32d4c, type: 3}
+  - name: ui_potion_make_progress2
+    clip: {fileID: 8300000, guid: 1aeabd8e1fcd4744c98e360117626433, type: 3}
+  - name: ui_potion_make_progress3
+    clip: {fileID: 8300000, guid: 033add1e528643345aafd0fbd4a77c65, type: 3}
+  - name: ui_potion_make_progress4
+    clip: {fileID: 8300000, guid: 79f79e33332884c42a95cc0ba89c2b17, type: 3}
+  - name: ui_potion_make_start1
+    clip: {fileID: 8300000, guid: 1782d6b70ac4b6847802cb8849cfe397, type: 3}
+  - name: ui_potion_make_start2
+    clip: {fileID: 8300000, guid: 0dc6b0d815fcbd9419718a33bbf5bb92, type: 3}
+  - name: ui_potion_pick
+    clip: {fileID: 8300000, guid: 6d90161dde9784f4f99b4332ca9a3aab, type: 3}
+  - name: ui_quest_accept
+    clip: {fileID: 8300000, guid: 0838b357131dd874eadd4d627080c100, type: 3}
+  - name: ui_quest_complete
+    clip: {fileID: 8300000, guid: 4b678873cc5a3ea4389b893c5dbc83ec, type: 3}
+  - name: ui_recall_cast
+    clip: {fileID: 8300000, guid: 5dbf18f8dba810e428e64c6303cdfedd, type: 3}
+  - name: ui_recall_end
+    clip: {fileID: 8300000, guid: 1d08893c36c3c5c46b5da33c331d16c9, type: 3}
+  - name: ui_refine_fail
+    clip: {fileID: 8300000, guid: ba442e9104017b442ae0b048ff8d5318, type: 3}
+  - name: ui_refine_start
+    clip: {fileID: 8300000, guid: 549e21d6340375c458821873c3131829, type: 3}
+  - name: ui_refine_success
+    clip: {fileID: 8300000, guid: 35be565e0ade7fc48a82a7812e9848bb, type: 3}
+  - name: ui_resurrection
+    clip: {fileID: 8300000, guid: b855ede216c293644a50ae982aa04dac, type: 3}
+  - name: ui_reward
+    clip: {fileID: 8300000, guid: ed5f8e3719759a94ba4bf9353b73fb0f, type: 3}
+  - name: ui_sidemenu_open
+    clip: {fileID: 8300000, guid: 8fd171e004ff1cb428f94b284275e050, type: 3}
+  - name: ui_StepArmour1
+    clip: {fileID: 8300000, guid: 95ba4683d9bd36d48929fb4a646efb3b, type: 3}
+  - name: ui_stone_pick
+    clip: {fileID: 8300000, guid: 668900eb5f3a03647af8b6f1de2952dc, type: 3}
+  - name: ui_store_close1
+    clip: {fileID: 8300000, guid: 62b30b950a95f4c40a974fdff424688e, type: 3}
+  - name: ui_store_close2
+    clip: {fileID: 8300000, guid: dde952b4726f65a4e9a1862fa2500954, type: 3}
+  - name: ui_store_close3
+    clip: {fileID: 8300000, guid: 646f53125ebf0ec4d9acb04be611e7dc, type: 3}
+  - name: ui_store_open1
+    clip: {fileID: 8300000, guid: 9b3e7db6f02d8da4a908036b51b30f95, type: 3}
+  - name: ui_store_open2
+    clip: {fileID: 8300000, guid: 0ac554e352d952c4895a448b625ff765, type: 3}
+  - name: ui_store_open3
+    clip: {fileID: 8300000, guid: 776f9f3a8cf04e64288bea91bb9d67ac, type: 3}
+  - name: ui_tab
+    clip: {fileID: 8300000, guid: b1af1f22cb4517a49ba4edb5ad39a590, type: 3}
+  - name: ui_wood_equip
+    clip: {fileID: 8300000, guid: 0dcf81304fa86144cac3260120cf81ba, type: 3}
+  - name: ui_wood_pick
+    clip: {fileID: 8300000, guid: 93defb78eaa572744bab133df2c73619, type: 3}
+  - name: ui_wood_unequip
+    clip: {fileID: 8300000, guid: ec07e6b43e7c087448cf9635e6fab713, type: 3}

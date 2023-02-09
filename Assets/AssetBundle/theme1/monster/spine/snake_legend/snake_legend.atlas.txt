@@ -1,0 +1,48 @@
+
+snake_legend.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 235
+  size: 513, 244
+  orig: 513, 244
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 447, 17
+  size: 233, 188
+  orig: 233, 188
+  offset: 0, 0
+  index: -1
+head_2
+  rotate: false
+  xy: 682, 23
+  size: 215, 182
+  orig: 215, 182
+  offset: 0, 0
+  index: -1
+head_c1_1
+  rotate: false
+  xy: 952, 426
+  size: 56, 53
+  orig: 56, 53
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 517, 207
+  size: 272, 433
+  orig: 272, 433
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 2, 2
+  size: 231, 443
+  orig: 231, 443
+  offset: 0, 0
+  index: -1
