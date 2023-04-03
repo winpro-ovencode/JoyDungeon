@@ -4,56 +4,61 @@ using UnityEngine;
 
 public class BackgroundScroll : MonoBehaviour
 {
-    public Vector2 Speed;
-    public bool IsHorizontalScroll;
-    public bool IsVerticalScroll;
-    public SpriteRenderer Sprite;
-    public Camera TargetCamera;
+	public float ScrollSpeed = 0.2F;    // speed to scroll the texture
+	public bool IsHorizontalScroll;     // determines if the parallax should be Horizontal
+	public bool IsVerticalScroll;       // determines if the parallax should be Vertical
 
-	GameObject thisGameObj;
-	Transform camTransform;
-	Material textureMaterial;
+	public Camera TheCam;               // reference to the camera the texture follows
+
+	private Transform CamTransform;     // ref to the camera's transform
+	private Material TextureMaterial;   // the material that is set to repeat itself
+
+
+	void Awake()
+	{
+	}
 
 	void Start()
-    {
-		if (thisGameObj.GetComponent<Renderer>().material == null)
+	{
+		if (GetComponent<Renderer>().material == null)
 		{
 			Debug.LogError("There is no texture attached. Please assign one in the inspector.");
 		}
 		else
 		{
 			// get the texture that will be wrapped
-			textureMaterial = thisGameObj.GetComponent<Renderer>().material;
+			TextureMaterial = GetComponent<Renderer>().material;
 		}
 
-		if (TargetCamera == null)
+		if (TheCam == null)
 		{
 			Debug.LogError("There is no camera attached. Please assign one in the inspector.");
 		}
 		else
 		{
 			//get the reference to the cameras transform
-			camTransform = TargetCamera.transform;
+			CamTransform = TheCam.transform;
 		}
+
 	}
 
-    void Update()
-    {
+	void LateUpdate()
+	{
 		if (IsHorizontalScroll)
 		{
 			//get the cam's pos & use it to determine offset
-			Vector3 theOffset = (camTransform.localPosition * Speed);
+			Vector3 theOffset = (CamTransform.localPosition * ScrollSpeed);
 			//set the offset in the texture's material
-			textureMaterial.SetTextureOffset("_MainTex", theOffset);
+			TextureMaterial.SetTextureOffset("_MainTex", theOffset);
 		}
 
 
 		if (IsVerticalScroll)
 		{
 			//get the cam's pos & use it to determine offset
-			Vector3 theOffset = (camTransform.localPosition * Speed);
+			Vector3 theOffset = (CamTransform.localPosition * ScrollSpeed);
 			//set the offset in the texture's material
-			textureMaterial.SetTextureOffset("_MainTex", theOffset);
+			TextureMaterial.SetTextureOffset("_MainTex", theOffset);
 		}
 	}
 }
